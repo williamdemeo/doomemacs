@@ -15,6 +15,32 @@
 
 </div>
 
+
+# Special section for this custom fork (@williamdemeo)
+
+## Custom Install
+
+The following installs doomemacs with special custom config files copied from 
+the templates directory into the `~/.config/doom` directory.  If you use this
+method, you should definitely have a look at the .el files in `~/.config/doom`
+before launching emacs.
+
+``` sh
+git clone --depth 1 git@github.com:williamdemeo/doomemacs.git ~/.config/emacs
+~/.config/emacs/bin/doom install
+```
+
+## Normal Install
+
+The following installs doomemacs with the standard generic config files copied from 
+the templates directory into the `~/.config/doom` directory.
+
+``` sh
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+~/.config/emacs/bin/doom install
+```
+
+
 ---
 
 ### Table of Contents
