@@ -18,6 +18,8 @@
 
 # Special section for this custom fork (@williamdemeo)
 
+**N.B.** This repository contains personalized, customized versions configuration files and is meant to be used in conjunction with the sister repository at <https://github.com/williamdemeo/config_wjd>.
+
 ## Custom Install
 
 The following installs doomemacs with special custom config files copied from 
